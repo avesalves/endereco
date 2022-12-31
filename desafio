@@ -1,0 +1,41 @@
+#rua = "823 B Ana Maria Marques"
+rua = "Ana Maria Marques 23 B"
+#rua = "Ana   23 "
+
+nomeRua,auxNomeRua,auxNomeRua2,num, numCompl = rua.split(" ")
+
+aux_nomeRua = nomeRua
+if aux_nomeRua == " ":
+    aux_nomeRua = 'x'
+    print(aux_nomeRua)
+func_auxNomeRua = auxNomeRua
+if func_auxNomeRua == " ":
+    func_auxNomeRua = 'x'
+    print(func_auxNomeRua)
+func_auxNomeRua2 = auxNomeRua2
+if func_auxNomeRua2 == " ":
+    func_auxNomeRua2 = 'x'
+    print(func_auxNomeRua2)
+aux_num = num
+if aux_num == " ":
+    aux_num = 'x'
+    print(aux_num)
+aux_numCompl = numCompl
+if aux_numCompl == " ":
+    aux_numCompl = 'x'
+    print(aux_numCompl)
+
+usa = (nomeRua[0:1])
+
+if usa == '0' or usa == '1' or usa == '2' or usa == '3' or usa == '4' or usa == '5' or usa == '6' or usa == '7' or usa == '8' or usa == '9':
+    print(auxNomeRua2, num, numCompl, ';', nomeRua, auxNomeRua)
+
+else:
+    print(nomeRua, auxNomeRua, auxNomeRua2, ";", num, numCompl)
+
+
+
+
+
+
+
